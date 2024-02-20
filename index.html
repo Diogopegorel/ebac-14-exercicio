@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="header">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2">The 4 Seasons</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#spring" class="nav-link">
+                            <i class="bi bi-flower3 me-1"></i>
+                            Spring
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#summer" class="nav-link">
+                            <i class="bi bi-sun-fill me-1"></i>
+                            Summer
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#autumn" class="nav-link">
+                            <i class="bi bi-tree-fill me-1"></i>
+                            Fall
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#winter" class="nav-link">
+                            <i class="bi bi-snow me-1"></i>
+                            Winter
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#keep-in-nature" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Keep in Nature
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true">
+        <section class="carousel-section">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="rounded" src="images/4-seasons-1.jpg" alt="autumn tree">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/4-seasons-2.jpg" alt="summer tree">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/4-seasons-3.jpg" alt="winter tree">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="spring">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/flores-carousel-1.jpg" class="d-block w-100 rounded" alt="flowers">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title text-color green">Spring</h2>
+                            <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque distinctio
+                                corrupti
+                                officia
+                                quidem. Odit et laudantium quasi debitis placeat. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Nobis, voluptatibus. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Aperiam, temporibus.
+                            </p>
+                            <h3 class="section-title text-color green">March - June</h3>
+                            <p class="white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cum hic,
+                                officiis officia
+                                fuga
+                                nobis maxime magnam ipsum provident adipisci? Lorem ipsum dolor sit amet consectetur,
+                                adipi sicing elit. Saepe, sint! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                                consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="summer">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title purple">Summer</h2>
+                            <p class="grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque distinctio
+                                corrupti
+                                officia
+                                quidem. Odit et laudantium quasi debitis placeat. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Nobis, voluptatibus. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Aperiam, temporibus.
+                            </p>
+                            <h3 class="section-title text-color purple">June - September</h3>
+                            <p class="grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cum hic,
+                                officiis officia
+                                fuga
+                                nobis maxime magnam ipsum provident adipisci? Lorem ipsum dolor sit amet consectetur,
+                                adipi sicing elit. Saepe, sint! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                                consectetur.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/verao-2.jpg" class="d-block w-100 rounded" alt="beach">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="autumn">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/outono-1.jpg" class="d-block w-100 rounded" alt="fall">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title text-color green">Autumn</h2>
+                            <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque distinctio
+                                corrupti
+                                officia
+                                quidem. Odit et laudantium quasi debitis placeat. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Nobis, voluptatibus. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Aperiam, temporibus.
+                            </p>
+                            <h3 class="section-title text-color green">September - December</h3>
+                            <p class="white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cum hic,
+                                officiis officia
+                                fuga
+                                nobis maxime magnam ipsum provident adipisci? Lorem ipsum dolor sit amet consectetur,
+                                adipi sicing elit. Saepe, sint! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                                consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="winter">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title text-color purple">Winter</h2>
+                            <p class="grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque distinctio
+                                corrupti
+                                officia
+                                quidem. Odit et laudantium quasi debitis placeat. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Nobis, voluptatibus. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Aperiam, temporibus.
+                            </p>
+                            <h3 class="section-title text-color purple">December - March</h3>
+                            <p class="grey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cum hic,
+                                officiis officia
+                                fuga
+                                nobis maxime magnam ipsum provident adipisci? Lorem ipsum dolor sit amet consectetur,
+                                adipi sicing elit. Saepe, sint! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet
+                                consectetur.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/inverno-1.jpg" class="d-block w-100 rounded" alt="white wolf at snow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="keep-in-nature" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-color green">Keep in Nature</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold white">Name:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold white">Email</label>
+                                <input type="text" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold white">Phone
+                                    (opcional)</label>
+                                <input type="text" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold white">Message</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold white">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 ">
+                        <div class="row">
+                            <h3 class="section-title text-color green fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill green"></i>
+                                Find us
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook green"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4  ms-3 me-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram green"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp green"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title text-color green fs-4">
+                                <i class="bi bi-cursor-fill green"></i>Address
+                            </h3>
+                            <p class="white">Inside the Nature</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
